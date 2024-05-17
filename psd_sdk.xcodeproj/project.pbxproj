@@ -126,6 +126,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		002046902BF80765003D57BE /* psd_sdk_test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "psd_sdk_test-Bridging-Header.h"; sourceTree = "<group>"; };
 		004361902BF6EEB70092AD19 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		00439CFA2BD9C9700038B7DE /* psd_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = psd_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00439CFD2BD9C9700038B7DE /* psd_sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = psd_sdk.h; sourceTree = "<group>"; };
@@ -297,6 +298,7 @@
 				004361902BF6EEB70092AD19 /* Result.swift */,
 				0067CB8A2BE2162F00ED1114 /* PsdManager.swift */,
 				00A1E35A2BE3031200F1A778 /* PsdDocument.swift */,
+				002046902BF80765003D57BE /* psd_sdk_test-Bridging-Header.h */,
 				00439DC62BD9CDA00038B7DE /* Assets.xcassets */,
 				00439DCB2BD9CDA00038B7DE /* psd_sdk_Test.entitlements */,
 				00439DC82BD9CDA00038B7DE /* Preview Content */,
@@ -927,6 +929,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -961,6 +964,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_VERSION = 5.0;
 			};

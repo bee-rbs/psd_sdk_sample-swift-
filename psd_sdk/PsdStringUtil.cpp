@@ -19,7 +19,6 @@ namespace stringUtil
 		{
 			return nullptr;
 		}
-        std::setlocale(LC_ALL, "en_US.UTF-8");
         char *buffer;
 		size_t n = std::wcslen(ws) * 4 + 1;
 		buffer = static_cast<char*>(memoryUtil::AllocateArray<char>(alloc,n));
