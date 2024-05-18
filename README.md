@@ -4,7 +4,7 @@ c++で作成されたOSSの[psd_sdk](https://github.com/MolecularMatters/psd_sdk
 
 ## 詳細
 
-- PSDファイルのレイヤー情報と各レイヤーを合成した画像を表示
+- PSDファイルのレイヤー情報の取得と各レイヤーを合成した画像を表示
 - Swiftの「C++ interoperability」を使用（Xcode15以上が必要）
 
 ## ソースについての補足
